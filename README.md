@@ -22,7 +22,7 @@ group_vars/
 templates/
 ├── report_email_animated.html.j2 # HTML format for the hosts CPU and usage metrics
 
-├── ansible.cfg      # separate environment to run ansible configuration
+├── ansible.cfg      # separate environment to run Ansible configuration
 ├── tag.sh           # tagging the running hosts with name web01 & 02 
 ├── copy_pub.sh      # copying the pub key from the master node to the host machines 
 ├── collect_metrics.yaml # collecting metrics like CPU usage, memory, and disk
